@@ -1,0 +1,243 @@
+# Add a new line between command executions
+add_newline = true
+
+format = '''[╭╴](238)$all
+$env_var$character'''
+
+[aws]
+disabled = true
+
+[battery]
+disabled = false
+
+[buf]
+disabled = true
+
+[bun]
+disabled = true
+
+[c]
+disabled = true
+
+# Config the default prompt character
+[character]
+success_symbol = "[╰─](bold green)[](bold green)"
+error_symbol = "[╰─](bold red)[](bold red)"
+
+[cmake]
+disabled = true
+
+[cobol]
+disabled = true
+
+[cmd_duration]
+format = " [🚀 $duration]($style) "
+min_time = 0
+show_milliseconds = true
+
+[conda]
+disabled = true
+
+[container]
+disabled = true
+
+[crystal]
+disabled = true
+
+[custom.podman]
+command = "podman ps"
+detect_files = ['docker-compose.yml']
+disabled = true
+format = ' [$output]($style)'
+ignore_timeout = true
+
+[daml]
+disabled = true
+
+[dart]
+disabled = true
+
+[deno]
+disabled = true
+
+[directory]
+truncate_to_repo = true
+home_symbol = '󰋜 ~'
+read_only_style = '197'
+read_only = '  '
+format = 'at [$path]($style)[$read_only]($read_only_style) '
+
+[docker_context]
+disabled = true
+
+[dotnet]
+detect_extensions = ['csproj', 'fsproj', 'xproj', 'sln']
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[fennel]
+disabled = true
+
+[fill]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[git_branch]
+style = "red bold"
+
+[golang]
+disabled = true
+
+[guix_shell]
+disabled = true
+
+[gradle]
+disabled = true
+
+[haskell]
+disabled = true
+
+[haxe]
+disabled = true
+
+[helm]
+disabled = true
+
+[hostname]
+ssh_only = false
+format = '[$hostname](bold blue) '
+
+[java]
+symbol = "☕ "
+
+[jobs]
+disabled = true
+
+[julia]
+disabled = true
+
+[kotlin]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[localip]
+disabled = true
+ssh_only = false
+
+[lua]
+disabled = true
+
+[meson]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[opa]
+disabled = true
+
+[openstack]
+disabled = true
+
+[os]
+format = '[$symbol](bold white)'
+disabled = false
+
+[os.symbols]
+Windows = ''
+Arch = '󰣇'
+Ubuntu = ''
+Macos = '󰀵'
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[purescript]
+disabled = true
+
+[python]
+python_binary = "python3"
+
+[quarto]
+disabled = true
+
+[rlang]
+disabled = true
+
+[raku]
+disabled = true
+
+[red]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+disabled = true
+
+[scala]
+disabled = true
+
+[singularity]
+disabled = true
+
+[solidity]
+disabled = true
+
+[spack]
+disabled = true
+
+[sudo]
+disabled = true
+
+[swift]
+disabled = true
+
+[terraform]
+disabled = true
+
+[typst]
+disabled = true
+
+[username]
+style_user = 'blue bold'
+style_root = 'black bold'
+format = '[$user]($style)@'
+disabled = false
+show_always = true
+
+[vagrant]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[vlang]
+disabled = true
+
+[zig]
+disabled = true
