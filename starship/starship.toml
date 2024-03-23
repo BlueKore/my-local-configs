@@ -21,8 +21,8 @@ disabled = true
 
 # Config the default prompt character
 [character]
-success_symbol = "[╰─](bold green)[](bold green)"
-error_symbol = "[╰─](bold red)[](bold red)"
+success_symbol = "[╰─](bold green)[>](bold green)"
+error_symbol = "[╰─](bold red)[>](bold red)"
 
 [cmake]
 disabled = true
@@ -181,9 +181,6 @@ disabled = true
 [python]
 python_binary = "python3"
 
-[quarto]
-disabled = true
-
 [rlang]
 disabled = true
 
@@ -218,9 +215,6 @@ disabled = true
 disabled = true
 
 [terraform]
-disabled = true
-
-[typst]
 disabled = true
 
 [username]
