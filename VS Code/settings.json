@@ -1,0 +1,59 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "diffEditor.codeLens": true,
+    "docker.dockerPath": "podman",
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "Hack Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.suggestSelection": "first",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "extensions.autoUpdate": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 60000,
+    "files.watcherExclude": {
+        "**/.ammonite": true,
+        "**/.bloop": true,
+        "**/.metals": true
+    },
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "security.workspace.trust.banner": "untilDismissed",
+    "security.workspace.trust.emptyWindow": true,
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.startupPrompt": "always",
+    "security.workspace.trust.untrustedFiles": "prompt",
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "terminal.integrated.fontSize": 16,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "update.mode": "manual",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}Moded by BlueKore",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.pdf": "default"
+    },
+    "workbench.iconTheme": "vs-seti",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": false,
+    "workbench.startupEditor": "newUntitledFile"
+}
